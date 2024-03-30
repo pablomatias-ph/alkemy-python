@@ -1,0 +1,27 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>150</x><y>110</y><w>170</w><h>160</h></coordinates><panel_attributes>Empleado
+--
+- String DNI
+- String nombre
+- String apellido
+- Int anioIngreso
+- tipoContraro Enum
+--
++ calcularSalarioTotal() (pass)
++ mostrarSalario() (pass)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>360</x><y>150</y><w>170</w><h>60</h></coordinates><panel_attributes>TipoContrato &lt;Enum&gt;
+--
+aComision
+salarioFijo</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>330</y><w>170</w><h>140</h></coordinates><panel_attributes>EmpSalario
+--
+- float salarioFijo
+--
++ calcularSalarioTotal()
++ mostrarSalario</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>330</y><w>210</w><h>140</h></coordinates><panel_attributes>EmpComision
+--
+- float salarioMinimo
+- int numClientesCaptados
+- float montoPorCliente
+--
++ calcularSalarioTotal()
++ mostrarSalario
++ empleadoConMasClientes()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>260</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>260</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>180</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;50;10</additional_attributes></element></diagram>
